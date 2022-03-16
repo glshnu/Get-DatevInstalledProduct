@@ -26,6 +26,6 @@ function Get-DatevInstalledProduct
     }
 }
 
-$productlist = Get-InstalledProduct -server DENU-SR01 -product Familienrecht
+$productlist = Get-DatevInstalledProduct -server DENU-SR01 -product Familienrecht
 
 # write-host $productlist[0].Version
