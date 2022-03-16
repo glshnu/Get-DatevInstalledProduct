@@ -3,5 +3,5 @@ Installierte Produktversion auslesen
   
   
 # Aufruf  
-$productlist = Get-InstalledProduct -server &lthostname&gt -product &ltproduktname&gt  
+$productlist = Get-InstalledProduct -server &lt;hostname&gt; -product &lt;produktname&gt;  
   
